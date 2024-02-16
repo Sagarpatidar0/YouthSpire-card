@@ -1516,19 +1516,19 @@ margin-bottom: -3rem;
   right: 1.4rem;
 }
 .main-heading {
-  
   display: flex;
-  
-   margin-bottom: -8rem; 
+  margin-bottom: -8rem; 
   justify-content: center;
 }
 
 .main-heading img {
-  /* height: 26rem; */
-  width: 16%;
-  /* margin-top: -6rem; */
+  width: 15rem;
   aspect-ratio: 1/1;
   opacity: 0;
+}
+
+.spire{
+  margin-left: -10rem;
 }
 
 .main-heading img:nth-child(1) {
