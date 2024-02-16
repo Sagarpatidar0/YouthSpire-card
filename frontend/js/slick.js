@@ -415,7 +415,7 @@ ScrollTrigger.create({
   scroller: `#main`,
   start: `top top`,
   end: `600% top`,
-  markers: true,
+  markers: false,
 });
 
 
@@ -426,7 +426,7 @@ gsap.to("#page1",{
     start:`top top`,
     end:`100% top`,
     pin:true,
-  markers: true,
+  markers: false,
   scroller:`#main`
   }
 })
@@ -448,7 +448,7 @@ gsap.to("#page2",{
     end:`bottom top`,
     pin:true,
     scroller:`#main`,
-  markers: true,
+  markers: false,
 
   }
 })
@@ -459,7 +459,7 @@ gsap.to("#page3",{
     end:`bottom top`,
     pin:true,
     scroller:`#main`,
-  markers: true,
+  markers: false,
 
   }
 })
