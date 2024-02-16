@@ -89,11 +89,6 @@ body {
   width: auto;
 }
 
-/* .logo img {
-    width: 191px;
-    margin-left: 96px;
-    margin-top: 9px;
-} */
 
 nav.navbar {
   margin-top: 29px;
@@ -259,8 +254,6 @@ a.dropdown-item {
 canvas {
   position: absolute;
   z-index: -10;
-  /* max-width: 50vw;
-    max-height: 50vh; */
   bottom: 10px;
 }
 
@@ -1022,9 +1015,8 @@ button.btn.btn-primary:focus {
 li.nav-item {
   font-size: 21px;
   font-family: origin-tech;
-
   animation: fade 2s ease;
-  animation-delay: 2sec;
+  animation-delay: 6s;
   animation-duration: 3s;
   animation-iteration-count: 1;
 }
@@ -1033,7 +1025,7 @@ li.nav-item {
   width: 60px;
   margin-left: 170px;
   margin-top: 15px;
-  animation-delay: 2sec;
+  animation-delay: 6s;
   animation: fade 2s ease-out;
   animation-duration: 3s;
   animation-iteration-count: 1;
@@ -1049,20 +1041,12 @@ button {
   border-radius: 35px;
   color: white;
   border: 4px solid #b1e45d;
-  animation-delay: 2sec;
+  animation-delay: 4s;
   animation: fade 5s ease-out;
   animation-duration: 5s;
   animation-iteration-count: 1;
 }
 
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 .Roadmap h1 {
   font-size: 4rem;
@@ -1250,54 +1234,6 @@ button {
 
 /* Pawan */
 
-.header-main img {
-  animation: slide-down 2s ease-out;
-}
-
-@keyframes slide-down {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-li.nav-item {
-  font-size: 21px;
-  font-family: origin-tech;
-
-  animation: fade 2s ease;
-  animation-delay: 2sec;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-
-.logo img {
-  width: 60px;
-  margin-left: 170px;
-  margin-top: 15px;
-  animation-delay: 2sec;
-  animation: fade 2s ease-out;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-}
-
-button {
-  font-size: 30px;
-  font-family: blok;
-  padding: 2px 29px;
-  margin-right: 213px;
-  background-color: transparent;
-  margin-top: -2px;
-  border-radius: 35px;
-  color: white;
-  border: 4px solid #b1e45d;
-  animation-delay: 2sec;
-  animation: fade 5s ease-out;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-}
 
 @keyframes fade {
   from {
@@ -1316,11 +1252,9 @@ button {
   height: 4.4rem;
   width: 4.4rem;
   color: rgb(3, 3, 3);
-  /* background-color: rgb(99, 99, 99); */
   position: relative;
   top: 88vh;
   left: 4vw;
-  /* padding: .6rem .5rem .4rem .5rem; */
   z-index: 1;
   cursor: pointer;
 }
@@ -1329,11 +1263,6 @@ button {
   height: 5rem;
   width: 5rem;
 }
-
-/* .svg-icons .discord {
-    color: #000;
-  background: linear-gradient(135deg, transparent, 10px, rgb(255, 255, 255) 0) top left;
-} */
 
 #journey {
  
