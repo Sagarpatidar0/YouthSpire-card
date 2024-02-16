@@ -1515,10 +1515,11 @@ margin-bottom: -3rem;
   position: relative;
   right: 1.4rem;
 }
-
 .main-heading {
+  
   display: flex;
-  margin-bottom: -8rem;
+  
+   margin-bottom: -8rem; 
   justify-content: center;
 }
 

@@ -584,14 +584,19 @@ nav.navbar {
         button.navbar-toggler.ravn {
             background-color: black;
             margin-right: 0px;
-            padding-top: 11px;
-        }
+                    }
 
         div#navbarsExample07XL {
             background-color: #a2a0a08f;
             border-radius: 5px;
             height: 100vh;
             margin-top: 27px;
+            
+        }
+
+        .navbar-toggler-icon i{    /* change by pawan */
+           padding-right:11rem;
+        margin-top:-2.6rem
         }
 
         .navbar-expand-lg .navbar-nav .nav-link {
@@ -613,6 +618,10 @@ nav.navbar {
                 background-color: black;
                 margin-right: 0px;
                 padding-top: 11px;
+
+                /* change by pawan */
+                height: 2.2rem;
+                width:2.2rem
             }
             
             .cir {
@@ -724,6 +733,12 @@ nav.navbar {
      
      @media screen and (max-width:750px) {
 
+        #header {
+            background-color: rgb(194, 11, 11);
+            margin-top: -34px;
+            height: 0;
+            
+        }
 
         .text5 h2{
             font-size: 4rem;
@@ -850,4 +865,210 @@ nav.navbar {
                 width: fit-content;
                 align-items: center;
               }
+
+
+              #header .logo img{
+                width:2rem;
+                height: 2.3rem;
+              }
+
+
+              /* pawan's edit */
+
+              #page1 #right-text{
+                width:80vw;
+                    
+            }
+
+              #page1 #left-text{
+                width: 80vw;
+              }
+               
+              #page2 #text1 {
+                width:80vw;
+              }
+
+              #page2 #text2{
+                width:80vw;
+                text-align:center;
+              }
+
+          .heading{
+            font-size:22px;
+          }
+
+          .sub{
+            font-size:18px
+          }
+          
+          .para{
+            font-size:14px;
+          }
+
+         .header-main-1 .logo{
+            height:12px;
+            width:12px;
+            margin-top:26px;
+         }
+         
+        
+
+         .main-heading {
+            display: flex;
+            margin-top: 10rem;
+            justify-content: center;
+          }
+          
+          .main-heading img {
+            width: 12rem;
+            aspect-ratio: 1/1;
+            opacity: 0;
+          }
+          
+          .main-heading img:nth-child(1) {
+            z-index: 10;
+            animation: slideIn 0.7s ease-in-out forwards;
+            animation-delay: 1.4s;
+            margin-right: 5.8rem;
+          }
+          
+          .main-heading img:nth-child(2) {
+            z-index: 9;
+            margin-right:3rem;
+            animation: slideIn 0.7s ease-in forwards 1s;
+            
+          }
+          
+          .main-heading img:nth-child(3) {
+            
+            
+            animation
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            : slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 1.8s;
+          }
+          
+          .main-heading img:nth-child(4) {
+            z-index: 7;
+            
+            animation: slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 2s;
+          }
+          
+          .main-heading img:nth-child(5) {
+            z-index: 6;
+           
+            animation: slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 2.2s;
+          }
+          
+          .main-heading img:nth-child(6) {
+            z-index: 5;
+           
+            animation: slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 2.4s;
+          }
+          
+          .main-heading img:nth-child(7) {
+            z-index: 4;
+            
+            animation: slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 2.6s;
+          }
+          
+          .main-heading img:nth-child(8) {
+            z-index: 3;
+            
+            animation: slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 2.8s;
+          }
+          
+          .main-heading img:nth-child(9) {
+            z-index: 2;
+            
+            animation: slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 3s;
+          }
+          
+          .main-heading img:nth-child(10) {
+            z-index: 1;
+            
+            animation: slideIn 0.7s ease-in forwards 1s;
+            animation-delay: 3.2s;
+          }
+
+
+
+        
+
+
+
+         .sub-heading{
+            margin-top: 14rem;
+         }
      }
